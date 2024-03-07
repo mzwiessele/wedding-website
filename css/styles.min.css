@@ -104,6 +104,35 @@ h5 {
     margin-right: 20px
 }
 
+.special table {
+    width: 100%;
+}
+
+.special tr {
+    vertical-align: baseline;
+    width: 100%;
+}
+
+
+.special td {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.special th {
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.contribution {
+    font-family: 'Sannisa', sans-serif;
+    font-stretch: expanded;
+    word-spacing: 15px;
+    line-height: 1.4;
+    font-size: 50px;
+}
+
 section.intro,
 section.features-extra,
 section.rsvp {
@@ -438,7 +467,8 @@ section .header {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 50%;
     background-position-y: 20%;
     background-position-x: 50%;
     position: relative;
@@ -1115,6 +1145,10 @@ footer span.fa-heart {
     color: #ff415c;
     font-size: 18px;
     margin: 0 2px
+}
+
+body {
+    background-color: rgb(220, 239, 251);
 }
 
 body.modal-open {
