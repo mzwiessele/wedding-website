@@ -126,7 +126,7 @@ h5 {
 }
 
 .contribution {
-    font-family: 'Sannisa', sans-serif;
+    font-family: 'Respective', sans-serif;
     font-stretch: expanded;
     word-spacing: 15px;
     line-height: 1.4;
@@ -462,13 +462,13 @@ section .header {
 }
 
 .hero {
-    min-height: 750px;
+    min-height: 500px;
     background-image: url("../img/hero-min.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: clamp(300px, 80%, 1000px);
+    -moz-background-size: clamp(300px, 80%, 1000px);
+    -o-background-size: clamp(300px, 80%, 1000px);
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: clamp(300px, 80%, 1000px);
     background-position-y: 20%;
     background-position-x: 50%;
     position: relative;
