@@ -168,7 +168,7 @@ section.blog {
 }
 
 a {
-    color: #0e4b8b;
+    color: #aa00aa;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
@@ -183,7 +183,7 @@ P {
 
 a:hover,
 a:focus {
-    color: #08121d;
+    color: #005687;
     text-decoration: none;
     cursor: pointer
 }
@@ -519,7 +519,7 @@ header {
     padding: 50px 0;
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
     position: relative;
-    width: 1170px;
+    /* width: 1170px; */
     margin: 0 auto;
     transition: padding 300ms ease-in-out
 }
@@ -530,7 +530,8 @@ header a {
     font-size: 13px
 }
 
-header a.login {
+header .translate {
+    float: right;
     margin-right: 20px
 }
 
@@ -579,6 +580,7 @@ header ul.member-actions li a:hover {
 }
 
 header .header-nav {
+    width: 70%;
     display: inline-block
 }
 
